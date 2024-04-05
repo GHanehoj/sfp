@@ -188,9 +188,9 @@ arrayLibraryFunctions pub space pt signed rank = do
       { Manifest.arrayFree = free_array,
         Manifest.arrayShape = shape_array,
         Manifest.arrayValues = values_array,
-        Manifest.arrayNew = new_array,
-        Manifest.arrayNewRaw = new_raw_array,
-        Manifest.arrayValuesRaw = values_raw_array
+        Manifest.arrayNew = new_array
+        -- Manifest.arrayNewRaw = new_raw_array,
+        -- Manifest.arrayValuesRaw = values_raw_array
       }
 
 lookupOpaqueType :: Name -> OpaqueTypes -> OpaqueType

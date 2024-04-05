@@ -155,6 +155,9 @@ library
       Futhark.CLI.Doc
       Futhark.CLI.Eval
       Futhark.CLI.HIP
+      Futhark.CLI.GDA
+      Futhark.CLI.IPA
+      Futhark.CLI.LDA
       Futhark.CLI.Literate
       Futhark.CLI.LSP
       Futhark.CLI.Main
@@ -391,6 +394,9 @@ library
       Futhark.Version
       Language.Futhark
       Language.Futhark.Core
+      Language.Futhark.GDA
+      Language.Futhark.IPA
+      Language.Futhark.LDA
       Language.Futhark.Interpreter
       Language.Futhark.Interpreter.Values
       Language.Futhark.FreeVars
@@ -455,7 +461,7 @@ library
     , free >=5.1.10
     , futhark-data >= 1.1.0.0
     , futhark-server >= 1.2.2.1
-    , futhark-manifest >= 1.4.0.0
+    , futhark-manifest >= 1.3.0.0
     , githash >=0.1.6.1
     , half >= 0.3
     , haskeline
@@ -481,7 +487,7 @@ library
     , transformers >=0.3
     , vector >=0.12
     , versions >=6.0.0
-    , zlib >=0.7.0.0
+    , zlib >=0.6.1.2
     , statistics
     , mwc-random
     , prettyprinter >= 1.7
